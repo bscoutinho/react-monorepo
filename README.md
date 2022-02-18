@@ -1,13 +1,3 @@
-All code from this tutorial as a complete package is available in [this repository](https://github.com/alexeagleson/monorepo-example) and a video version of this tutorial is available below:
-
-{% youtube McEc5yX6kf4 %}
-
-Do you work with large or semi-large codebases that are starting to get out of control?  Do you have to deal with multiple different projects that interact with each other and have difficulty keeping versions aligned?  
-
-If you said yes to either of those things (or even if you're just anticipating encountering them in the future) then this tutorial is for you.  
-
-The purpose of this tutorial is to learn about some of the different ways that you can structure a large project which is composed primarily of smaller projects and modules.
-
 ### Monorepos
 
 One method of grouping code from multiple projects into one is called a [monorepo](https://en.wikipedia.org/wiki/Monorepo).  A _monorepo_ is simply the practice of placing multiple different projects that are related in some way into the same repository.
