@@ -351,12 +351,6 @@ Our project now looks like:
 
 ## Create Your Repository
 
-This is also a good time to commit your new project to your repository.  I'll be doing that now as well, you can see the [final version here](https://github.com/alexeagleson/monorepo-example).
-
-Note that in order to learn submodules effectively, we are going to be adding a submodule from a repository that _already exists_, we don't want to use the one that `create-react-app` generated automatically.  
-
-**So for that reason I am going to delete the that repository by deleting the `.git` directory inside `packages/simple-react-app`.  This step is VERY IMPORTANT.  Make sure there is no `.git` directory inside `simple-react-app`.**
-
 Now from the root directory you can run:
 
 ```bash
@@ -701,39 +695,3 @@ import { QueryPayload } from '@my-namespace/simple-shared-data';
 Finally run `yarn install` to update those packages inside your root `node_modules` directory and you're good to go!
 
 
-## Wrapping Up
-
-I hope you learned something useful about monorepos and submodules.  There are tons of different ways to setup a new project, and there's no one-size-fits-all answer for every team.
-
-I'd encourage you to play around with small monorepos (even clone this example) and get get comfortable with the different commands.  
-
-
-Please check some of my other learning tutorials.  Feel free to leave a comment or question and share with others if you find any of them helpful:
-
-- [Learnings from React Conf 2021](https://dev.to/alexeagleson/learnings-from-react-conf-2021-17lg)
-
-- [How to Create a Dark Mode Component in React](https://dev.to/alexeagleson/how-to-create-a-dark-mode-component-in-react-3ibg)
-
-- [How to Analyze and Improve your 'Create React App' Production Build ](https://dev.to/alexeagleson/how-to-analyze-and-improve-your-create-react-app-production-build-4f34)
-
-- [How to Create and Publish a React Component Library](https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe)
-
-- [How to use IndexedDB to Store Local Data for your Web App ](https://dev.to/alexeagleson/how-to-use-indexeddb-to-store-data-for-your-web-application-in-the-browser-1o90)
-
-- [Running a Local Web Server](https://dev.to/alexeagleson/understanding-the-modern-web-stack-running-a-local-web-server-4d8g)
-
-- [ESLint](https://dev.to/alexeagleson/understanding-the-modern-web-stack-linters-eslint-59pm)
-
-- [Prettier](https://dev.to/alexeagleson/understanding-the-modern-web-stack-prettier-214j)
-
-- [Babel](https://dev.to/alexeagleson/building-a-modern-web-stack-babel-3hfp)
-
-- [React & JSX](https://dev.to/alexeagleson/understanding-the-modern-web-stack-react-with-and-without-jsx-31c7)
-
-- [Webpack: The Basics](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-1-2mn1)
-
-- [Webpack: Loaders, Optimizations & Bundle Analysis](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-2-49bj)
-
----
-
-For more tutorials like this, follow me <a href="https://twitter.com/eagleson_alex?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">@eagleson_alex</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> on Twitter
